@@ -1,2 +1,3 @@
 <?php
-$it->adi = "Buldog"; // Səhv: Protected üzv dəyərini dəyişmək olmaz
+$str = "This is some <b>bold</b> text.";
+echo htmlspecialchars($str);
