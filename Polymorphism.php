@@ -53,5 +53,5 @@ class Qus extends Heyvan
 $heyvanlar = array(new It("Buldog"), new Qus("Kanarya"));
 
 foreach ($heyvanlar as $heyvan) {
-    echo $heyvan->getAdi() . ": " . $heyvan->səsÇıxar() . "<br>";
+    echo $heyvan->getAdi() . ": " . $heyvan->səsÇıxar() . " n/ ";
 }

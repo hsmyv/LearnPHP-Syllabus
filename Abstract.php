@@ -167,3 +167,5 @@ echo "Total Amount (Store Order): {$order2->getTotalAmount()}\n";
 
 // Use PayPalPayment to checkout
 $order2->checkout(new PayPalPayment());
+
+
